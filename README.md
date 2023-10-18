@@ -40,8 +40,8 @@ This is a minimal Unix-like shell, similar to the standard Unix shell (`sh`). It
 
 ## How to Use
 
-1. Compile your simple shell program using a C/C++ compiler.
-2. Run the compiled program from the command line.
+1. Compile your simple shell program using a C/C++ compiler `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`.
+2. Run the compiled program from the command line `./hsh`.
 3. You can enter commands and utilize the system calls and functions listed above.
 
 ## Disclaimer
